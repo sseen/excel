@@ -1422,6 +1422,10 @@ class Sheet {
     return _spannedItems.keys;
   }
 
+  List get spanList {
+    return _spanList;
+  }
+
   ///
   ///Cleans the `_SpanList` by removing the indexes where null value exists.
   ///
